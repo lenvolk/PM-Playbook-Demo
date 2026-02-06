@@ -32,3 +32,32 @@ If any workflow touches:
 - Material pricing/fee changes
 
 …the agent should propose options and questions, but recommend human review/approval.
+
+
+
+## 🎥 Video
+
+- **YouTube**
+  https://www.youtube.com/watch?v=TOAAKp9NYDw
+
+> Reference video related to AI, Copilot workflows, and product thinking.
+
+---
+
+## 🧩 Custom Prompts
+
+- **Awesome GitHub Copilot – Project Planning Collection**
+  https://github.com/github/awesome-copilot/blob/main/collections/project-planning.md
+
+> A curated set of prompt ideas and patterns focused on project and product planning using GitHub Copilot.
+
+---
+
+## 🧠 Product Brain Repository
+
+- **Product Brain (digitarald)**
+  https://github.com/digitarald/product-brain
+
+> An open-source approach for capturing product strategy, decisions, constraints, and context in a structured repository.
+
+---
