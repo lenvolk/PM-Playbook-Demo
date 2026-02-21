@@ -1,5 +1,7 @@
 # GitHub Push Protection Testing Guide
 
+> **This demo is based on:** [GitHub Secret Scanning Push Protection](https://www.youtube.com/watch?v=PHmnkhLZWj0&t=759s)
+
 This guide documents how to test GitHub's Secret Scanning Push Protection feature.
 
 ## Overview
