@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Development, Managed Right | GitHub Security for Teams</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+                <span>SecurePM</span>
+            </div>
+            <div class="nav-links">
+                <a href="#workflow">How It Works</a>
+                <a href="#benefits">Benefits</a>
+                <a href="#tools">Tools</a>
+                <a href="#demo" class="nav-cta">Schedule Demo</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    GitHub Advanced Security
+                </div>
+                <h1>Secure Development,<br><span class="gradient-text">Managed Right</span></h1>
+                <p class="hero-subtitle">How Project Managers and Scrum Masters drive security excellence with GitHub CodeQL & Dependabot</p>
+                <div class="hero-buttons">
+                    <a href="#demo" class="btn-primary">
+                        Schedule a Demo
+                        <svg viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                        </svg>
+                    </a>
+                    <a href="#workflow" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-glow"></div>
+                <img src="pictures/hero-team.jpg" alt="Team collaborating on security">
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="workflow" class="workflow">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Workflow</span>
+                <h2>Security Management,<br>Seamlessly Integrated</h2>
+                <p>See how PM and Scrum Master roles collaborate with automated security tools to deliver secure software faster.</p>
+            </div>
+            <div class="workflow-diagram">
+                <div class="workflow-step">
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                        </svg>
+                    </div>
+                    <h3>Sprint Planning</h3>
+                    <p>Security tasks prioritized alongside features based on Dependabot alerts</p>
+                </div>
+                <div class="workflow-connector">
+                    <svg viewBox="0 0 100 20">
+                        <path d="M0 10 L90 10 M85 5 L95 10 L85 15" stroke="currentColor" stroke-width="2" fill="none"/>
+                    </svg>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <h3>CodeQL Scans</h3>
+                    <p>Automated vulnerability detection on every pull request</p>
+                </div>
+                <div class="workflow-connector">
+                    <svg viewBox="0 0 100 20">
+                        <path d="M0 10 L90 10 M85 5 L95 10 L85 15" stroke="currentColor" stroke-width="2" fill="none"/>
+                    </svg>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3>Track & Report</h3>
+                    <p>Security metrics visible in dashboards for stakeholder reviews</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Benefits</span>
+                <h2>Why Security-First Management Wins</h2>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3>Catch Vulnerabilities Early</h3>
+                    <p>CodeQL finds security issues during code review, not after deployment. Fix problems when they're 100x cheaper to address.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                        </svg>
+                    </div>
+                    <h3>Automated Updates</h3>
+                    <p>Dependabot automatically creates PRs for vulnerable dependencies. No more manual tracking of CVEs.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3>Compliance Ready</h3>
+                    <p>Generate audit trails and security reports automatically. Prove due diligence to auditors and stakeholders.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3>Team Empowerment</h3>
+                    <p>Developers learn secure coding patterns from CodeQL feedback. Security becomes everyone's responsibility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Roles Section -->
+    <section class="roles">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Team Roles</span>
+                <h2>Security Champions in Action</h2>
+            </div>
+            <div class="roles-grid">
+                <div class="role-card">
+                    <div class="role-image">
+                        <img src="pictures/project-manager.jpg" alt="Project Manager">
+                    </div>
+                    <div class="role-content">
+                        <h3>Project Manager</h3>
+                        <p>Owns the security roadmap and ensures vulnerability remediation is prioritized in release planning. Communicates security posture to leadership.</p>
+                        <ul class="role-tasks">
+                            <li>
+                                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                Prioritize security alerts by severity
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                Track remediation timelines
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                Report to stakeholders
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="role-card">
+                    <div class="role-image">
+                        <img src="pictures/scrum-master.jpg" alt="Scrum Master">
+                    </div>
+                    <div class="role-content">
+                        <h3>Scrum Master</h3>
+                        <p>Integrates security tasks into sprint ceremonies. Ensures the team has capacity for both features and security fixes without burnout.</p>
+                        <ul class="role-tasks">
+                            <li>
+                                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                Include security in definition of done
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                Balance velocity with security
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                Remove security blockers
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">GitHub Security Tools</span>
+                <h2>Powered by Industry-Leading Technology</h2>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <div class="tool-logo codeql">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3>CodeQL</h3>
+                    </div>
+                    <p>Semantic code analysis that treats code as data. Finds vulnerabilities like SQL injection, XSS, and buffer overflows with near-zero false positives.</p>
+                    <div class="tool-features">
+                        <span class="feature-tag">SAST</span>
+                        <span class="feature-tag">Zero Config</span>
+                        <span class="feature-tag">CI/CD Ready</span>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <div class="tool-logo dependabot">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"/>
+                            </svg>
+                        </div>
+                        <h3>Dependabot</h3>
+                    </div>
+                    <p>Automated dependency updates that keep your supply chain secure. Creates pull requests with security fixes before vulnerabilities become exploits.</p>
+                    <div class="tool-features">
+                        <span class="feature-tag">SCA</span>
+                        <span class="feature-tag">Auto PRs</span>
+                        <span class="feature-tag">CVE Alerts</span>
+                    </div>
+                </div>
+            </div>
+            <div class="code-preview">
+                <img src="pictures/code-security.jpg" alt="Code analysis visualization">
+                <div class="code-overlay">
+                    <div class="code-stats">
+                        <div class="stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label">Critical Vulnerabilities</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">100%</span>
+                            <span class="stat-label">Dependencies Scanned</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="section-container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">100x</span>
+                    <span class="stat-desc">Cheaper to fix vulnerabilities<br>during development</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">85%</span>
+                    <span class="stat-desc">Reduction in time spent<br>on security reviews</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">10K+</span>
+                    <span class="stat-desc">Vulnerability patterns<br>detected by CodeQL</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-desc">Continuous monitoring<br>of dependencies</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="demo" class="cta">
+        <div class="cta-bg"></div>
+        <div class="section-container">
+            <div class="cta-content">
+                <h2>Ready to Secure Your Development Workflow?</h2>
+                <p>See how your team can integrate GitHub security tools into your existing PM and Agile processes.</p>
+                <a href="mailto:demo@example.com?subject=Security Demo Request" class="btn-cta">
+                    Schedule a Demo
+                    <svg viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+                <span>SecurePM</span>
+            </div>
+            <p class="footer-text">
+                Built with GitHub Advanced Security. Photos from <a href="https://www.pexels.com" target="_blank">Pexels</a>.
+            </p>
+            <p class="footer-copyright">© 2026 SecurePM. Security-first project management.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('nav-scrolled');
+            } else {
+                nav.classList.remove('nav-scrolled');
+            }
+        });
+
+        // Animate stats on scroll
+        const observerOptions = { threshold: 0.5 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.stat-card, .benefit-card, .role-card, .tool-card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
