@@ -1,0 +1,37 @@
+copilot cli 
+
+Can you make me an ASCII art um architecture diagram? I don't really understand this code base, and I want to get
+a sense of what's going on here.
+
+/fleet Use two type of models to run in parallel GPT-5.3-Codex and Gemini 3.1 pro
+Run subagents when you see necessary.
+Change the existing website into a fitness tracker app? Don't worry about backend functionality or anything like that; we simply want to build the landing page for this fictitious fitness tracker app. Its called ClaudeFit. you are
+welcome to come up with a copy. You can use stock images. It's really up to you. Simply try
+to create a beautiful UI, and that's it. Go for it.
+
+/tasks
+
+Create 2 git wroktrees inside the repo root
+1. Codex_Skills
+2. Gemini_DesignSystem
+
+
+--- Codex
+cd C:\Temp\GIT\pm-playbook\Codex_Skills
+npx skills add https://github.com/anthropics/skills --skill frontend-design
+---
+I need you to redesign this fitness tracker app using your 
+front end design skill. Carefully consider colors and font
+choices, and even stock images that fit the theme of a fitness
+tracker app.
+
+--- Gemini
+cd C:\Temp\GIT\pm-playbook\Gemini_DesignSystem\
+Delete Skills folder
+
+Screenshot of https://dribbble.com/shots/26472242-Wellness-Fitness-Tracking-App
+
+To the Prompt: /fleet ALT+V recreate current design of the existing website with the image attached. Match the fonts, the color schemes, the layout and the vibe.
+
+
+/share gist
