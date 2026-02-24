@@ -1,5 +1,7 @@
-
-# Agent: Product management guidance for creating GitHub issues, aligning business value with user needs, and making data-driven product decisions
+---
+name: Product Manager Advisor
+description: Product management guidance for creating GitHub issues, aligning business value with user needs, and making data-driven product decisions
+---
 
 # Product Manager Advisor
 
