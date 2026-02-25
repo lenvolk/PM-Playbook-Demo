@@ -3,7 +3,51 @@ name: Demo Agent
 description: Engaging demo presenter for GitHub security features. Runs interactive browser-based demos with clear narration and visual evidence. Optimized for 2-3 minute live demonstrations.
 model: Claude Opus 4.6 (copilot)
 tools:
-[vscode/getProjectSetupInfo, vscode/installExtension, vscode/memory, vscode/newWorkspace, vscode/runCommand, vscode/vscodeAPI, vscode/extensions, execute/runNotebookCell, execute/testFailure, execute/getTerminalOutput, execute/awaitTerminal, execute/killTerminal, execute/createAndRunTask, execute/runInTerminal, execute/runTests, read/getNotebookSummary, read/problems, read/readFile, read/readNotebookCellOutput, read/terminalSelection, read/terminalLastCommand, agent/askQuestions, agent/runSubagent, edit/createDirectory, edit/createFile, edit/createJupyterNotebook, edit/editFiles, edit/editNotebook, edit/rename, search/changes, search/codebase, search/fileSearch, search/listDirectory, search/searchResults, search/textSearch, search/searchSubagent, search/usages, web/fetch, web/githubRepo, browser/openBrowserPage, browser/readPage, browser/screenshotPage, browser/navigatePage, browser/clickElement, browser/dragElement, browser/hoverElement, browser/typeInPage, browser/runPlaywrightCode, browser/handleDialog, vijaynirmal.playwright-mcp-relay/browser_close, vijaynirmal.playwright-mcp-relay/browser_resize, vijaynirmal.playwright-mcp-relay/browser_console_messages, vijaynirmal.playwright-mcp-relay/browser_handle_dialog, vijaynirmal.playwright-mcp-relay/browser_evaluate, vijaynirmal.playwright-mcp-relay/browser_file_upload, vijaynirmal.playwright-mcp-relay/browser_fill_form, vijaynirmal.playwright-mcp-relay/browser_install, vijaynirmal.playwright-mcp-relay/browser_press_key, vijaynirmal.playwright-mcp-relay/browser_type, vijaynirmal.playwright-mcp-relay/browser_navigate, vijaynirmal.playwright-mcp-relay/browser_navigate_back, vijaynirmal.playwright-mcp-relay/browser_network_requests, vijaynirmal.playwright-mcp-relay/browser_take_screenshot, vijaynirmal.playwright-mcp-relay/browser_snapshot, vijaynirmal.playwright-mcp-relay/browser_click, vijaynirmal.playwright-mcp-relay/browser_drag, vijaynirmal.playwright-mcp-relay/browser_hover, vijaynirmal.playwright-mcp-relay/browser_select_option, vijaynirmal.playwright-mcp-relay/browser_tabs, vijaynirmal.playwright-mcp-relay/browser_wait_for, todo]
+  # Built-in browser
+  - browser/openBrowserPage
+  - browser/readPage
+  - browser/screenshotPage
+  - browser/navigatePage
+  - browser/clickElement
+  - browser/dragElement
+  - browser/hoverElement
+  - browser/typeInPage
+  - browser/runPlaywrightCode
+  - browser/handleDialog
+  # Playwright MCP (screenshots, DOM snapshots)
+  - vijaynirmal.playwright-mcp-relay/browser_navigate
+  - vijaynirmal.playwright-mcp-relay/browser_click
+  - vijaynirmal.playwright-mcp-relay/browser_type
+  - vijaynirmal.playwright-mcp-relay/browser_fill_form
+  - vijaynirmal.playwright-mcp-relay/browser_press_key
+  - vijaynirmal.playwright-mcp-relay/browser_take_screenshot
+  - vijaynirmal.playwright-mcp-relay/browser_snapshot
+  - vijaynirmal.playwright-mcp-relay/browser_wait_for
+  - vijaynirmal.playwright-mcp-relay/browser_close
+  - vijaynirmal.playwright-mcp-relay/browser_install
+  - vijaynirmal.playwright-mcp-relay/browser_hover
+  - vijaynirmal.playwright-mcp-relay/browser_tabs
+  - vijaynirmal.playwright-mcp-relay/browser_evaluate
+  # GitHub MCP (push secrets, check alerts)
+  - github-remote/push_files
+  - github-remote/delete_file
+  - github-remote/get_file_contents
+  - github-remote/create_or_update_file
+  - github-remote/list_secret_scanning_alerts
+  - github-remote/get_secret_scanning_alert
+  # Context7 (docs lookup)
+  - io.github.upstash/context7/resolve-library-id
+  - io.github.upstash/context7/get-library-docs
+  # Core capabilities
+  - read/readFile
+  - search/fileSearch
+  - search/textSearch
+  - search/searchSubagent
+  - web/fetch
+  - agent/runSubagent
+  - execute/runInTerminal
+  - execute/getTerminalOutput
+  - todo
 ---
 
 # Demo Agent
