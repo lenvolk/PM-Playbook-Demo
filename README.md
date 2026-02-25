@@ -88,7 +88,15 @@ Start a new chat and invoke the Demo Agent:
 | Mode | Command | What Happens |
 |------|---------|--------------|
 | **Block Mode** (default) | `@Demo Agent run the push protection demo` | Push is blocked, shows bypass page |
+| **Interactive Mode** | `@Demo Agent run the push protection demo step by step` | Pauses after each ACT to answer questions |
 | **Dry Run Mode** | `@Demo Agent run the push protection demo in dry run mode` | Secret goes through, shows up in Security Alerts |
+
+**Interactive Mode** pauses after each step so you can:
+- Ask questions about what just happened
+- Take notes or discuss with your team
+- Move at your own pace
+
+> 💡 **Tip:** Combine modes! Use `@Demo Agent interactive dry run` for a step-by-step walkthrough of the dry run flow.
 
 **Dry Run Mode** temporarily disables push protection so you can see:
 - The secret appearing in **Security → Secret scanning alerts**
