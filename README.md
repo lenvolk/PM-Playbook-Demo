@@ -1,3 +1,5 @@
+> 📺 **For more training on GitHub security features, reference this YouTube video:** [GitHub Push Protection Training](https://www.youtube.com/watch?v=PHmnkhLZWj0&list=PL8sOwioiPP75hpOrouD0SBkGmu6czVX24&index=37)
+
 # 🛡️ GitHub Push Protection Demo
 
 > **Can GitHub catch a secret before it leaks?** Let's find out.
