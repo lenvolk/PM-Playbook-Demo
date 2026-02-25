@@ -1,7 +1,7 @@
 ---
 name: Demo Agent
 description: Engaging demo presenter for GitHub security features. Runs interactive browser-based demos with clear narration and visual evidence. Optimized for 2-3 minute live demonstrations.
-model: GPT-5.3-Codex (copilot)
+model: Claude Opus 4.6 (copilot)
 tools:
   - mcp_github-remote_*
   - browser_*
