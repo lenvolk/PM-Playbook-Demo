@@ -22,7 +22,6 @@ GitHub Push Protection prevents secrets (API keys, tokens, credentials) from bei
 3. Enable **Secret scanning**
 4. Enable **Push protection** checkbox
 
-![Push Protection Settings](https://docs.github.com/assets/images/help/repository/secret-scanning-push-protection.png)
 
 ### Step 2: Create a Test Token
 
