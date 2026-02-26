@@ -5,7 +5,7 @@ a sense of what's going on here.
 
 /fleet Use two type of models to run in parallel GPT-5.3-Codex and Gemini 3.1 pro
 Run subagents when you see necessary.
-Change the existing website into a fitness tracker app? Don't worry about backend functionality or anything like that; we simply want to build the landing page for this fictitious fitness tracker app. Its called ClaudeFit. you are
+Change the existing website into a fitness tracker app. Don't worry about backend functionality or anything like that; we simply want to build the landing page for this fictitious fitness tracker app. Its called ClaudeFit. you are
 welcome to come up with a copy. You can use stock images. It's really up to you. Simply try
 to create a beautiful UI, and that's it. Go for it.
 
